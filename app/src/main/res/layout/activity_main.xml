@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="53dp"
+        android:onClick="btnSaveClicked"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/edtxtName"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter the Name of the KickBoxer"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtxtPunchSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:hint="Enter the Punch Speed"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtxtPunchPower"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Enter the Punch Power"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtxtKickSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:hint="Enter the Kick Speed"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtxtKickPower"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="285dp"
+        android:ems="10"
+        android:hint="Enter the Kick Power"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
